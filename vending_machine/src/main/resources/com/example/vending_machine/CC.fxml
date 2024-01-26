@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+<AnchorPane prefHeight="200" prefWidth="233.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+            <children>
+               <Label layoutX="23.0" layoutY="54.0" text="ccn" />
+               <Label layoutX="23.0" layoutY="91.0" text="ccv" />
+               <Button layoutX="78.0" layoutY="156.0" mnemonicParsing="false" text="submit" />
+               <TextField layoutX="68.0" layoutY="50.0" prefHeight="25.0" prefWidth="130.0" />
+               <TextField layoutX="70.0" layoutY="87.0" prefHeight="25.0" prefWidth="126.0" />
+            </children></AnchorPane>

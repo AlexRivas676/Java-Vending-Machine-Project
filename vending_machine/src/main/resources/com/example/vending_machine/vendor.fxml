@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="334.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vending_machine.editVendorcontroller">
+            <children>
+               <Label layoutX="14.0" layoutY="87.0" text="vname" />
+               <TextField fx:id="vendorNameText" layoutX="75.0" layoutY="83.0" />
+               <TextField fx:id="vendorAddressText" layoutX="75.0" layoutY="141.0" />
+               <Button fx:id="connectVendorButton" layoutX="114.0" layoutY="222.0" mnemonicParsing="false" onAction="#connectVendorClick" text="connect vendor" />
+               <Label layoutX="7.0" layoutY="145.0" text="vaddress" />
+               <ComboBox fx:id="vendorCombo" layoutX="68.0" layoutY="33.0" prefWidth="150.0" />
+      <Button fx:id="backButton" layoutX="148.0" layoutY="281.0" mnemonicParsing="false" onAction="#backToMenu" text="back" />
+            </children></AnchorPane>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="600.0" style="-fx-background-color: #5A5A5A;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vending_machine.Vendingmachinecontroller">
+   <children>
+      <Button fx:id="adminbutton" layoutX="14.0" layoutY="14.0" lineSpacing="2.0" minHeight="18.0" minWidth="37.0" mnemonicParsing="false" onAction="#onadminbuttonclick" prefHeight="27.0" prefWidth="64.0" style="-fx-background-color: #808080;" text="ADMIN" textAlignment="CENTER" />
+      <ImageView fitHeight="92.0" fitWidth="98.0" layoutX="62.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/No_Image_Available.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="70.0" layoutY="156.0" style="-fx-text-fill: #FFFFFF;" text="Product Name" />
+      <ImageView fitHeight="104.0" fitWidth="92.0" layoutX="216.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/No_Image_Available.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="224.0" layoutY="156.0" style="-fx-text-fill: #FFFFFF;" text="Product Name" />
+      <ImageView fitHeight="104.0" fitWidth="92.0" layoutX="368.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/No_Image_Available.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="376.0" layoutY="156.0" style="-fx-text-fill: #FFFFFF;" text="Product Name" />
+      <ImageView fitHeight="84.0" fitWidth="92.0" layoutX="67.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/No_Image_Available.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="73.0" layoutY="288.0" prefHeight="17.0" prefWidth="83.0" style="-fx-text-fill: #FFFFFF;" text="Product Name" />
+      <ImageView fitHeight="84.0" fitWidth="104.0" layoutX="225.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/No_Image_Available.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="84.0" layoutX="380.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/No_Image_Available.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="100.0" layoutX="67.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/No_Image_Available.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="92.0" layoutX="225.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/No_Image_Available.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="84.0" layoutX="385.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/No_Image_Available.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="226.0" layoutY="295.0" prefHeight="8.0" prefWidth="83.0" style="-fx-text-fill: #FFFFFF;" text="Product Name" />
+      <Label layoutX="384.0" layoutY="297.0" style="-fx-text-fill: #FFFFFF;" text="Product Name" />
+      <Label layoutX="70.0" layoutY="430.0" style="-fx-text-fill: #FFFFFF;" text="Product Name" />
+      <Label layoutX="229.0" layoutY="422.0" style="-fx-text-fill: #FFFFFF;" text="Product Name" />
+      <Label layoutX="389.0" layoutY="422.0" style="-fx-text-fill: #FFFFFF;" text="Product Name" />
+      <Button fx:id="purchasebutton1" layoutX="82.0" layoutY="173.0" mnemonicParsing="false" onAction="#onpurchasebutton" text="Purchase" />
+      <Button fx:id="purchasebutton2" layoutX="236.0" layoutY="173.0" mnemonicParsing="false" onAction="#onpurchasebutton" text="Purchase" />
+      <Button fx:id="purchasebutton3" layoutX="394.0" layoutY="173.0" mnemonicParsing="false" onAction="#onpurchasebutton" text="Purchase" />
+      <Button fx:id="purchasebutton4" layoutX="82.0" layoutY="312.0" mnemonicParsing="false" onAction="#onpurchasebutton" prefHeight="25.0" prefWidth="64.0" text="Purchase" />
+      <Button fx:id="purchasebutton5" layoutX="242.0" layoutY="312.0" mnemonicParsing="false" onAction="#onpurchasebutton" prefHeight="25.0" prefWidth="64.0" text="Purchase" />
+      <Button fx:id="purchasebutton6" layoutX="394.0" layoutY="312.0" mnemonicParsing="false" onAction="#onpurchasebutton" prefHeight="25.0" prefWidth="64.0" text="Purchase" />
+      <Button fx:id="purchasebutton7" layoutX="78.0" layoutY="447.0" mnemonicParsing="false" onAction="#onpurchasebutton" prefHeight="25.0" prefWidth="64.0" text="Purchase" />
+      <Button fx:id="purchasebutton8" layoutX="242.0" layoutY="447.0" mnemonicParsing="false" onAction="#onpurchasebutton" prefHeight="25.0" prefWidth="77.0" text="Purchase" />
+      <Button fx:id="purchasebutton9" layoutX="401.0" layoutY="447.0" mnemonicParsing="false" onAction="#onpurchasebutton" prefHeight="25.0" prefWidth="77.0" text="Purchase" />
+   </children>
+</AnchorPane>
